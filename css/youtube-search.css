@@ -1,0 +1,1522 @@
+body{
+    background-color: #f3f7fd;
+}
+.font-size-12 {
+    font-size: 12px;
+}
+@media screen and (min-width:992px){
+    .main-bg{
+        background-image: url('../images/main-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:991px){
+    .main-bg:after {
+        background-image: url('../images/main-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+}
+
+/* Section 1 Heading css start */
+section.head-main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url(../images/headbg.jpg);
+    background-position: 70% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-title h2 {
+    font-size: 2.25rem;
+    color: #000;
+}
+.head-title h2 i {
+    font-size: 2.75rem;
+}
+.inputstyle-box {
+    border: none;
+    height: calc(2.5em + .75rem + 2px);
+    font-size: 12px;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    padding-right: 50px;
+    border: 2px solid transparent;
+    font-weight: 500;
+    color: #787878;
+}
+.btn.find-btn {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    color: #fff;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    transition: all 0.5s;
+    border: 2px solid #24b088;
+}
+button.btn.find-btn:hover {
+    background: #fff;
+    color: #1aa190;
+    border: 2px solid #1ca38f;
+    box-shadow: 0px 0px 6px 0px #00000033;
+    transition: all 0.25s;
+}
+.inputstyle-box:focus {
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    border: 2px solid #e5f0fb;
+    outline: none;
+}
+.channel-block {
+    min-height: calc(2.5em + .75rem + 2px);
+}
+span.gray-txt {
+    color: #787878;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-size-13 {
+    font-size: 13px;
+}
+.box-shadow-light{
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10980392156862745);
+}
+@media screen and (max-width:1199px){
+    .channel-block span {
+        font-size: 12px;
+    }
+}
+
+/* Section filter content css start */
+section.filter-section {
+    background-color: #f3f7fd;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.filter-list {
+    background: #fff;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    border-radius: 4px;
+    padding: 1.25rem 1.25rem;
+}
+.filterlist-type {
+    padding: 0.15rem 0.65rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #1ca48e;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+}
+.filter-icon {
+    width: 35px;
+    height: 35px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+.filter-name h6 {
+    margin-bottom: 0px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 12px;
+}
+.filterlist-type:hover {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+}
+.filterlist-type:hover .filter-icon .fliter-show {
+    opacity: 1;
+}
+.filterlist-type:hover .filter-name h6 {
+    color: #fff;
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.filterlist-type .filter-icon .fliter-show {
+    opacity: 0;
+}
+.filterlist-type .filter-icon img.img-fluid.filter-show {
+    opacity: 0;
+}
+.filterlist-type:hover .filter-icon img.img-fluid.filter-show {
+    opacity: 1;
+    display: initial;
+}
+.filterlist-type:hover .filter-icon img {
+    opacity: 0;
+    display: none;
+}
+.filterlist-type.active {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+}
+.filterlist-type.active .filter-icon img {
+    display: none;
+}
+.filterlist-type.active .filter-icon img.filter-show {
+    display: block !important;
+    opacity: 1;
+}
+.filterlist-type.active .filter-name h6 {
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.filterlist-type.active:after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0.5em solid transparent;
+    border-right: 0.65em solid transparent;
+    border-bottom: 0.5em solid transparent;
+    border-left: 0.65em solid #39ce79;
+    position: absolute;
+    right: -20px;
+    z-index: 1;
+}
+.mask-icon{
+    padding: 7px;
+}
+.mortarboard-icon{
+    padding: 4px;
+}
+.dropdown.filte-dropdown {
+    margin-top: 5rem;
+    width: 100%;
+}
+.dropdown.filte-dropdown .dropdown-menu, .btn.find-btn ~ .dropdown-menu {
+    border-color: #1aa18f;
+}
+.dropdown.filte-dropdown button {
+    width: 100%;
+    text-align: left;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.6rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #22ac8a;
+    transition: ease 0.25s;
+}
+.dropdown.filte-dropdown button:hover, .dropdown.filte-dropdown button:focus, .dropdown.filte-dropdown button:active {
+    background-color: #fff !important;
+    color: #1aa190 !important;
+    border-color: #1aa190 !important;
+    background: #fff !important;
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726) !important;
+}
+
+@media screen and (max-width:991px){
+    section.head-main{
+        padding-bottom: 2rem;
+    }
+    section.filter-section{
+        padding-bottom: 0rem;
+        padding-top: 2rem;
+    }
+}
+
+/* Filter rigth slide block content css start */
+.filter-block {
+    padding: 0.75rem 1rem 2rem;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    position: relative;
+    margin-bottom: 3rem;
+    transition: ease 1s;
+}
+.f-name {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+.f-cricle-img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+.f-name-details p {
+    font-size: 12px;
+    color: #787878;
+}
+.f-name-details h6 {
+    color: #333333;
+}
+.f-name-details {
+    padding-left: 5rem;
+}
+.f-data h6 {
+    font-size: 13px;
+    line-height: 1.5;
+}
+.green-txt {
+    color: #91c24b;
+}
+.yellow-txt {
+    color: #f1b000;
+}
+.f-info {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    max-width: 100%;
+}
+.red-txt {
+    color: #e75667;
+}
+h6.sky-txt {
+    color: #56b6e7;
+}
+.theme-txt{
+    color: #5848a1;
+}
+button.btn.addplus-btn {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+}
+.addplus-block {
+    position: absolute;
+    right: -18px;
+    bottom: -18px;
+    z-index: 1;
+}
+.btn.addplus-btn:hover {
+    transition: ease 0.5s;
+}
+
+/* Filter Pagination content css start */
+.filter-pagination {
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    background: #fff;
+    padding: 0.55rem 1rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+button.filter-prev-btn {
+    border: 1px solid #1ca48e;
+    padding: 0.45rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 4px;
+    color: #1aa190;
+    outline: none;
+    transition: ease 0.5s;
+}
+button.filter-prev-btn span {
+    font-weight: 700;
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 13px;
+    padding-left: 10px;
+}
+button.filter-prev-btn i {
+    color: #1ba38e;
+}
+button.filter-prev-btn:hover {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    color: #fff;
+}
+button.filter-prev-btn:hover i {
+    color: #fff;
+}
+button.filter-prev-btn:hover span {
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button.filter-number-btn {
+    border: 1px solid #1ca48e;
+    padding: 0.45rem 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 4px;
+    color: #1aa190;
+    outline: none;
+    transition: ease 0.5s;
+    width: 45px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+button.filter-number-btn.active {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    color: #fff;
+}
+button.filter-number-btn:hover {
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    color: #fff;
+}
+button.Keepsrh-btn {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    outline: none;
+    transition: ease 0.5s;
+}
+button.Keepsrh-btn:hover {
+    background-color: #fff !important;
+    color: #1aa190 !important;
+    border-color: #1aa190 !important;
+    background: #fff !important;
+}
+
+.addplus-btn:hover:before{
+    opacity: 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border: 12px solid rgb(28, 165, 141);
+    border-radius: 100%;
+    -webkit-animation-name: ripple;
+            animation-name: ripple;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+            animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+    z-index: -1;
+}
+
+.addplus-btn:hover:after{
+    opacity: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  border:12px solid rgb(28, 165, 141);
+  border-radius: 100%;
+  -webkit-animation-name: ripple;
+          animation-name: ripple;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+          animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+  z-index: -1;
+}
+
+/* Animation ripple css */
+@-webkit-keyframes ripple {
+    from {
+      opacity: 1;
+      -webkit-transform: scale3d(0.75, 0.75, 1);
+              transform: scale3d(0.75, 0.75, 1);
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: scale3d(1.5, 1.5, 1);
+              transform: scale3d(1.5, 1.5, 1);
+    }
+  }
+  
+  @keyframes ripple {
+    from {
+      opacity: 1;
+      -webkit-transform: scale3d(0.75, 0.75, 1);
+              transform: scale3d(0.75, 0.75, 1);
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: scale3d(1.5, 1.5, 1);
+              transform: scale3d(1.5, 1.5, 1);
+    }
+  }
+  
+
+/* Media Query css Filter Block */
+@media screen and (max-width: 1199px){
+    button.filter-prev-btn, button.filter-number-btn{
+        padding: 0.25rem 0.75rem;
+    }
+    .addplus-block{
+        right: -13px;
+        bottom: -13px;
+    }
+    button.btn.addplus-btn{
+        width: 30px;
+        height: 30px;   
+    }
+    .dropdown.filte-dropdown button, .filter-name h6{
+        font-size: 12px;
+    }
+    .filter-icon{
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+    }
+    .f-cricle-img{
+        width: 50px;
+        height: 50px;
+    }
+    .f-name{
+        margin-bottom: 2rem;
+    }
+    .filter-block{
+        padding: 0.75rem 1rem 1.25rem;
+        margin-bottom: 2.5rem;
+    }
+    .f-data h6{
+        font-size: 11px;
+    }
+    .f-name-details h6{
+        font-size: 14px;
+    }
+    .f-name-details p{
+        font-size: 11px;
+    }
+    .f-name-details{
+        padding-left: 4rem;
+    }
+}
+@media screen and (max-width:991px){
+    button.btn.filter-prev-btn span {
+        display: none;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .filter-name h6{
+        font-size:10px; 
+    }
+}
+@media screen and (max-width:575px){
+    section.head-main{
+        padding-top: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .head-title h2{
+        font-size: 2rem;
+    }
+    .dropdown.filte-dropdown{
+        margin-top: 1rem;
+    }
+    .addplus-block{
+        right: 25px;
+    }
+}
+
+/* Instagram content css */
+.insta-follower{
+    position: relative;
+    top:-10px;
+}
+.insta-bg {
+    background: #ffe7e7;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 4px;
+    margin-bottom: 3px;
+}
+.insta-follower h5 {
+    font-weight: 700;
+    font-size: 15px;
+}
+button.insta-btns {
+    border: 1px solid #1ca48e;
+    padding: 0.45rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 4px;
+    color: #1aa190;
+    outline: none;
+    transition: ease 0.5s;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 15px;
+}
+button.insta-btns:hover {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    color: #fff;
+}
+button.insta-btns span {
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button.insta-btns:hover span {
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Download Everything Block css start */
+.filter-block.instafilter-block{
+    padding: 0.75rem 1rem 1.5rem; 
+}
+.insta-block {
+    width: calc(100% - 0px);
+}
+@media screen and (max-width:767px){
+    .insta-img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:1199px){
+    .insta-details h6{
+        font-size: 13px;
+    }
+    .insta-follower h5{
+        font-size: 13px;
+    }
+    .insta-data{
+        font-size: 11px;
+    }
+    .insta-data h6{
+        font-size: 11px;
+    }
+    button.insta-btns{
+        padding: 0.25rem 0.5rem;
+    }
+}
+@media screen and (max-width:767px){
+    .insta-follower h5{
+        font-size: 12px;
+    }
+    .insta-data h6{
+        font-size: 9.5px;
+    }
+    button.insta-btns{
+        padding: 0.2rem 0.5rem;
+        font-size: 11px;
+    }
+    button.filter-prev-btn, button.filter-number-btn{
+        padding: 0.25rem 0.5rem;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:575px){
+    .insta-data h6{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:359px){
+    .insta-data h6{
+        font-size: 9.5px;
+    }
+} 
+
+/* ----------- Instagram Detail Page Css start --------- */
+.D-filter {
+    padding: 1.5rem 2.5rem !important;
+}
+.D-user-img {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    border-radius: 50%;
+    padding: 6px;
+    position: relative;
+}
+.D-insta-details {
+    width: calc(100% - 215px);
+    padding-left: 3rem;
+}
+.email-label p {
+    font-size: 16px;
+    color: #333;
+}
+.email-label a {
+    filter: blur(3px);
+    color: #333;
+    outline: none;
+}
+.check-user p span {
+    filter: blur(3px);
+}
+@media screen and (max-width:1199px){
+    .head-title h2 {
+        font-size: 2rem;
+    }
+}
+
+/* User Detail Content Css Start */
+.userbtn-right {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 2px solid #2ab983;
+    transition: ease .25s;
+}
+button.btn.userbtn-right:hover {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: none;
+}
+.d-f-info{
+    max-width:500px;
+}
+@media screen and (min-width:992px){
+    .check-user p {
+        position: relative;
+        left: -25px;
+    }
+}
+@media screen and (max-width:1199px){
+    .D-user-img{
+        width: 180px;
+        height: 180px;
+    }
+    .d-insta-data h6{
+        font-size: 12.5px;
+    }
+    .d-f-info{
+        max-width:425px;
+    }
+    .D-user-name h6 {
+        font-size: 15px;
+    }
+    .email-label p {
+        font-size: 13px;
+    }
+    .userbtn-right{
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:991px){
+    .D-filter {
+        padding: 1.5rem !important;
+    }
+    .D-user-img{
+        width:150px;
+        height: 150px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .D-insta-details{
+        width: calc(100% - 150px);
+    }
+    .D-user-btn{
+        position: relative;
+        top: -15px;
+    }
+}
+@media screen and (max-width:767px){
+    .D-insta-details{
+        width: calc(100% - 0px);
+    }
+    .D-user-img{
+        margin: auto;
+    }
+    .D-insta-details{
+        padding-left: 0px;
+        margin-top: 1.5rem;
+    }
+    .d-f-info{
+        width:100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .d-insta-data h6{
+        font-size: 12px;
+        padding-right: 20px;
+        margin-bottom: 15px;
+    }
+    .head-title h2 i{
+        font-size: 2.5rem;
+    }
+    .head-title h2{
+        font-size: 1.5rem;
+    }
+}
+/* User Detail Content Css End */
+
+/* Filter Content Title css start */
+.seprater-style {
+    width: 75px;
+    height: 5px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    border-radius: 4px;
+    margin-top: 15px;
+}
+@media screen and (max-width:1199px){
+    .subtitle-label{
+        font-size: 1.25rem;
+    }
+}
+/* Filter Content Title css end */
+
+/* Instagram Stats Overview first block css start */
+.insta-report-detail {
+    background: #fff;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    border-radius: 4px;
+    padding: 1.25rem 1rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.insta-report-detail p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #787878;
+}
+.insta-report-detail h4 {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 2px 10px rgba(26, 161, 144, 0.2901960784313726);
+    font-size: 22px;
+}
+.insta-report-detail h4 small {
+    font-size: 17px;
+}
+.Report-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    background: #fddfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+}
+.Report-icon i {
+    font-size: 18px;
+}
+.insta-report-main:nth-child(1) .insta-report-detail .Report-icon{
+    background: #fddfdf;
+    color: #d7443e;
+}
+.insta-report-main:nth-child(2) .insta-report-detail .Report-icon{
+    background: #fff6d9;
+    color: #ffbc02;
+}
+.insta-report-main:nth-child(3) .insta-report-detail .Report-icon{
+    background: #f8e1f3;
+    color: #cb38ae;
+}
+.insta-report-main:nth-child(4) .insta-report-detail .Report-icon{
+    background: #daedfe;
+    color: #0083ff;
+}
+.insta-report-main:nth-child(5) .insta-report-detail .Report-icon{
+    background: #e3ffe4;
+    color: #00e12a;
+}
+.insta-report-main:nth-child(6) .insta-report-detail .Report-icon{
+    background: #d3fbf7;
+    color: #00dcc6;
+}
+@media screen and (max-width:1199px){
+    .insta-report-detail p{
+        font-size: 13px;
+    }
+    .Report-icon{
+        width: 43px;
+        height: 43px;
+    }
+    .insta-report-detail h4{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:575px){
+    .insta-report-detail p{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:450px) and (max-width:575px){
+    .insta-report-main {
+        max-width: 50%;
+    }
+}
+
+/* Instagram Stats Overview 2 block css start */
+.insta-post-main {
+    background: #fff;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    border-radius: 4px;
+    border: 1px solid #cddff9;
+    /* padding: 0rem 0.75rem; */
+}
+.post-info {
+    padding: 1rem;
+    border-right: 1px solid #cddff9;
+}
+.post-info p {
+    font-size: 13px;
+    color: #787878;
+    font-weight: 500;
+}
+.post-info h5 {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 2px 10px rgba(26, 161, 144, 0.2901960784313726);
+    margin-bottom: 0;
+    font-size: 18px;
+}
+@media screen and (min-width:992px){
+    .post-info p{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:991px){
+    .post-info{
+        border: 1px solid #cddff9;
+    }
+ }
+@media screen and (max-width:767px){
+    .post-info h5{
+        font-size: 14px;
+    }
+    .post-info p{
+        font-size: 11px;
+    }
+    .insta-post-main{
+        padding:0px;
+    }
+    .post-info{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:1199px){
+    .border-lg-right-0{
+        border-right: none;
+    }
+    .border-lg-righ{
+        border-right: 1px solid;
+    }
+}
+@media screen and (max-width:991px){
+    .border-md-right-0{
+        border-right: none;
+    }
+    .border-md-righ{
+        border-right: 1px solid;
+    }
+}
+@media screen and (max-width:767px){
+    .border-sm-right-0{
+        border-right: none;
+    }
+    .border-sm-righ{
+        border-right: 1px solid;
+    }
+}
+@media screen and (min-width:0px) and (max-width:991px){
+    .border-xl-bottom-0{
+        border-bottom:0;
+    }
+} 
+@media screen and (min-width:400px) and (max-width:575px){
+    .insta-post-xl{
+        max-width:50%;
+    }
+    .post-info{
+        border-bottom: 1px solid #cddff9;
+        padding:1rem 1.5rem;
+    }
+    .border-xl-bottom-0{
+        border-bottom:0;
+    }
+} 
+@media screen and (max-width:399px){
+    .post-info{
+        border-bottom: 1px solid #cddff9;
+        border-right: 0px;
+    }
+}
+
+/* Instagram Stats Overview 3 ( Chart ) block css start */
+.chart-block {
+    background: #fff;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    border-radius: 4px;
+    padding: 1.25rem;
+}
+.chart-block p {
+    font-size: 14px;
+    color: #787878;
+    font-weight: 500;
+}
+div#bar-chart svg {
+    width: 100%;
+}
+/* Instagram Stats Overview 3 ( Chart ) block css end */
+
+/* Unlock More Influencers Your Audience Trusts block css start */
+.Unlock-block {
+    padding: 2.5rem 1rem;
+    background: #fff;
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    border-radius: 4px;
+    position: relative;
+}
+.Unlock-block:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    border-radius: 4px;
+}
+.Unlock-block:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    margin: auto;
+    border-radius: 4px;
+}
+.Unlock-block h5 {
+    position: relative;
+    z-index: 1;
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Unlock-block p {
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 500;
+    color: #787878;
+}
+.startfree-btn {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.55rem 1.25rem;
+    max-width: 190px;
+    outline: none;
+    border: 2px solid #27b487;
+}
+.startfree-btn:hover {
+    background: #fff;
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Unlock More Influencers Your Audience Trusts block css end */
+
+/* ---- Instagram Detail Page Css End -------- */
+
+/* ---- Yotube Detail Page Css start -------- */
+@media screen and (min-width:1200px) and (max-width:2400px){
+    .youtubedetail-bg{
+        background-image: url(../images/youtube-detail-bg.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.seprater-green {
+    width: 24px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    border-radius: 8px;
+}
+.tag-block span {
+    font-size: 12px;
+    border: 1px solid #1ca48e;
+    padding: 6px 15px;
+    border-radius: 10px;
+    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
+    text-align: left;
+}
+.tagviewmore-btn {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.375rem 1.1rem;
+    border: 2px solid #1ca48e;
+    transition: ease 0.25s;
+}
+.tagviewmore-btn:hover {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.channel-status-label {
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+@media screen and (max-width:991px){
+    .tag-block span{
+        padding: 4px 10px;
+    }
+}
+@media screen and (max-width:767px){
+    .channel-socail{
+        max-width: 320px;
+        width: 190px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-channel-btn{
+        margin-top: -62px;
+    }
+}
+
+/* --- Toggle channel status button css start --- */
+.channel-toggle-main {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    padding: 5px;
+    border-radius: 8px;
+    height: 55px;
+}
+.channel-toggle-btn {
+    max-width: 180px;
+    width: 170px;
+    font-weight: 500;
+    border-radius:8px; 
+}
+.channel-toggle-btn.active {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    color: #fff;
+}
+/* --- Toggle channel status button css end --- */
+
+/* --- Analytics Overview Block css Start --- */
+.channel-analytis-block .lead-intro h5 {
+    font-size: 1.5rem;
+}
+.channel-analytis-block .lead-intro p {
+    font-size: 12px;
+}
+.channel-analytis-block:hover .leadicon .h-white-none {
+    display: none;
+}
+.channel-analytis-block .leadicon .gradient-none {
+    display: none;
+}
+
+.channel-analytis-block:hover .leadicon .gradient-none {
+    display: block;
+}
+@media screen and (min-width:992px){
+    .channel-analytis-block {
+        height: 145px;
+    }
+    .channel-analytis-block .leadicon {
+        width: 100px;
+        height: 100px;
+        top: -50px;
+    }
+    .channel-analytis-block .lead-intro {
+        padding-top: 55px;
+    }
+}
+@media screen and (max-width:991px){
+    .channel-analytis-block .lead-intro h5 {
+        font-size: 1.25rem;
+    }
+    .channel-analytis-block .leadicon{
+        width: 86px;
+        height: 86px;
+        top: -43px;
+    }
+    .channel-analytis-block .lead-intro {
+        padding-top: 45px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .channel-analytis-block .lead-intro {
+        padding-top: 45px;
+    }
+    .channel-analytis-block {
+        height: 135px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .channel-status-label{
+        font-size: 1.25rem;
+    }
+    .channel-status-label ~ p{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width:450px) and (max-width:767px) {
+    .Analytics-wrapper{
+        max-width: 50%;
+    }
+}
+@media screen and (max-width:575px){
+    .channel-status-label{
+        font-size: 1.1rem;
+    }
+    .channel-status-label ~ p{
+        font-size: 12px;
+    }
+    .channel-toggle-btn{
+        font-size: 13px;
+    }
+}
+/* --- Analytics Overview Block css End --- */
+
+/* --- Tab control css start --- */
+.channel-tab-item {
+    width: 33.33%;
+}
+.channel-tab-item .nav-link {
+    height: 85px;
+    position: relative;
+    background: #fff;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    border-radius: 4px;
+    margin-right: 15px;
+    transition: ease 0.25s;
+}
+.channel-tab-item .nav-link:hover {
+    box-shadow: 0px 0px 0px 2px #28b785;
+}
+.channel-tab-item .nav-link.active {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: none;
+}
+.channel-tab-name h4 {
+    font-weight: 600;
+}
+.channel-tab-name {
+    padding-left: 2.5rem;
+}
+.channel-tab-item .nav-link img.tab-active {
+    display: none;
+}
+.channel-tab-item .nav-link img.tab-active:nth-child(2) {
+    display: block;
+}
+.channel-tab-item .nav-link.active img.tab-active-no {
+    display: none;
+}
+.channel-tab-item .nav-link.active img.tab-active {
+    display: block;
+}
+.channel-tab-name p {
+    color: #787878;
+}
+.channel-tab-item .nav-link.active .channel-tab-name p {
+    color: #fff;
+}
+.channel-tab-name h4 {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-break: break-all;
+}
+.channel-tab-item .nav-link.active .channel-tab-name h4 {
+    color: #fff;
+    background: -webkit-linear-gradient(#fff 0%, #fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width:992px){
+    .tab-chart-height{
+        max-height: 500px !important;
+    }
+    .channel-tab-item .nav-link.active:after {
+        content: "\f0d7";
+        font-family: "Font Awesome 5 free";
+        font-weight: 900;
+        position: absolute;
+        bottom: 0;
+        background: -webkit-linear-gradient(#29b884 0%, #27b486 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: -41px;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:991px){
+    .channel-tab-name p{
+        font-size: 14px;
+    }
+    .channel-tab-name h4{
+        font-size: 16px;
+    }
+    .channel-tab-name p{
+        font-size: 12px;
+    }
+    .channel-tab-name h4{
+        font-size: 16px;
+    }
+    .channel-tab-name{
+        padding-left: 1rem;
+    }
+    .channel-tab-name {
+        padding-left: 0.5rem;
+        max-width: 115px;
+    }
+    .channel-tab-img img {
+        transform: scale(.85);
+    }
+    .channel-tab-item .nav-link{
+        height: 95px;
+    }
+}
+@media screen and (max-width:767px){
+    .channel-tab-item:nth-child(1) .channel-tab-img img {
+        height: 25px;
+        margin-top: 6px;
+    }
+    .channel-tab-img {
+        height: 32px;
+    }
+    .channel-tab-img img {
+        width: auto;
+        height: 36px;
+    }
+    .channel-tab-name h4{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:450px){
+    .channel-tab-name{
+        display: none;
+    }
+    .channel-tab-item .nav-link{
+        height: 53px;
+    }
+}
+/* --- Tab control css end --- */
+
+/* --- Pie 1 chart css start --- */
+.progress-pie-chart {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #1aa190, #39cf78);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.progress-pie-chart.gt-50 {
+  background: linear-gradient(90deg, #1aa190, #39cf78);
+}
+
+.ppc-progress {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 200px, 200px, 100px);
+}
+.ppc-progress .ppc-progress-fill {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  clip: rect(0, 100px, 200px, 0);
+  background: transparent;
+  transform: rotate(60deg);
+}
+.gt-50 .ppc-progress {
+  clip: rect(0, 175px, 200px, 0);
+  border: 1px solid #fff;
+}
+.gt-50 .ppc-progress .ppc-progress-fill {
+  clip: rect(0, 200px, 200px, 100px);
+  border: 1px solid #fff;
+}
+
+.ppc-percents {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 173.9130434783px/2);
+  top: calc(50% - 173.9130434783px/2);
+  width: 173.9130434783px;
+  height: 173.9130434783px;
+  background: transparent;
+  text-align: center;
+  display: table;
+}
+.ppc-percents span {
+  display: block;
+  font-size: 2.6em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.pcc-percents-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* --- Pie 2 chart css start --- */
+.chart {
+    position: relative;
+    display: flex;
+    margin: 5px 0px;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 275px !important;
+    height: 275px !important;
+    line-height: 25px !important;
+    align-items: center;
+    flex-direction: column;
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.count-Average {
+    font-weight: 600;
+}
+.count-pie {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.pie-block {
+    height: 395px;
+}
+.Entertainment-point h5 i {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Entertainment-point h5 b {
+    font-weight: 600;
+    font-size: 18px;
+}
+/* ---- Yotube Detail Page Css end -------- */

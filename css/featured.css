@@ -1,0 +1,806 @@
+body{
+    background-color: #f3f7fd;
+}
+.font-size-12 {
+    font-size: 12px;
+}
+/* Header Banner style css start */
+@media screen and (min-width:992px){
+    .main-bg{
+        background-image: url('../images/main-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:991px){
+    .main-bg:after {
+        background-image: url('../images/main-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+}
+/* Header Banner style css end */
+
+/* Section 1 Heading css start */
+section.head-main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url(../images/headbg.jpg);
+    background-position: 70% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-title h2 {
+    font-size: 2.25rem;
+    color: #383838;
+}
+.gray-txt {
+    color: #787878;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+.font-size-13 {
+    font-size: 13px;
+}
+.font-size-14 {
+    font-size: 14px;
+}
+.box-shadow-light{
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10980392156862745);
+}
+
+/* Filter section start css */
+section.filter-section {
+    background-color: #f3f7fd;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.influencers-block h3 {
+    font-size: 2rem;
+    line-height: 1.35;
+}
+.influencers-block p {
+    font-size: 11.5px;
+    font-weight: 500;
+    line-height: 1.75;
+    color: #333;
+}
+button.getstart-btn {
+    font-size: 12px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.38823529411764707);
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: ease 0.25s;
+    border: 2px solid #26b386;
+    outline: none;
+}
+button.getstart-btn:hover {
+    background-color: #fff !important;
+    color: #1aa190 !important;
+    border-color: #1aa190 !important;
+    background: #fff !important;
+}
+@media screen and (max-width:1199px){
+    .influencers-block h3{
+        font-size: 1.75rem;
+    }
+}
+@media screen and (max-width:991px){
+    .influencers-block h3{
+        font-size: 1.35rem;
+    }
+    button.getstart-btn{
+        padding: 8px 14px;
+    }
+}
+@media screen and (max-width:767px){
+    .influencers-block h3{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:475px){
+    .influencers-block h3{
+        font-size: 1.35rem;
+    }
+}
+@media screen and (max-width:359px){
+    .influencers-block h3{
+        font-size: 1.25rem;
+    }
+}
+
+/* Section 2 (Lead generation) css start */
+.lead-head h2 {
+    line-height: 1.35;
+}
+.lead-head p {
+    color: #333333;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.75;
+}
+.Lead-block {
+    background: #fff;
+    padding: 0rem 1.25rem 2rem;
+    position: relative;
+    height: 281px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    margin-bottom: 1.75rem;
+}
+.Lead-block:after {
+    width: 100%;
+    background-image: url('../images/shape-v.png');
+    height: 113px;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+}
+.lead-icon {
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1.75rem;
+}
+.instantly-label h6 {
+    font-weight: 600;
+    line-height: 1.5;
+}
+.instantly-label p {
+    color: #787878;
+    font-size: 10px;
+    line-height: 1.75;
+    font-weight: 600;
+}
+@media screen and (max-width:1199px){
+    .lead-head h2{
+        font-size: 1.75rem;
+    }
+    .lead-head p{
+        font-size: 12px;
+    }
+    .instantly-label h6{
+        font-size:0.9rem;
+    }
+}
+@media screen and (max-width:991px){
+    .instantly-label h6 {
+        font-size: 0.8rem;
+    }
+    .Lead-block{
+        height:270px;
+    }
+    .Lead-block{
+        padding: 0rem 0.65rem 2rem;
+    }
+    .instantly-label p{
+        font-size:9px;
+    }
+    .lead-head h2{
+        font-size:1.4rem;
+    }
+}
+@media screen and (max-width:767px){
+    .lead-head h2{
+        font-size:1.5rem;
+    }
+}
+@media screen and (max-width:575px){
+    .Lead-block{
+        max-width: 250px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media screen and (min-width:476px) and (max-width:575px){
+    .Lead-block{
+        height: 280px;
+    }
+    .col-xs-50{
+        max-width:50%;
+    }
+}
+@media screen and (max-width:475px){
+    .Lead-block{
+        height:auto;
+    }
+    .lead-head h2{
+        font-size:1.25rem;
+    }
+}
+
+/* section (Built in email) css start */
+.lead-head h2 {
+    line-height: 1.35;
+}
+section.built-section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background: #fff url('../images/buildbg.png');
+    background-size: cover;
+    background-position: top center;
+}
+.built-block h2 {
+    line-height: 1.35;
+}
+.built-block p {
+    color: #787878;
+    font-size: 12px;
+    font-weight: 500;
+}
+.chart-info h2 {
+    font-size: 1.5rem;
+    line-height: 1.35;
+}
+
+.chart-info p {
+    font-size: 12px;
+    color: #787878;
+    font-weight: 500;
+    line-height: 1.75;
+}
+.lead-card {
+    text-align: center;
+    background: #fff;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    padding: 1rem 1rem;
+    transition: ease 1s;
+    border: 2px solid transparent;
+    height: 265px;
+}
+.leadicon {
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -40px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.38823529411764707);
+    font-size: 2rem;
+    border: 2px solid #29b785b3;
+    transition: ease 0.5s;
+}
+.lead-intro {
+    padding-top: 60px;
+    text-align: center;
+}
+.leadicon i.fas.fa-sliders-h {
+    transform: rotate(90deg);
+}
+.lead-intro h5 {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+.leadcard-section {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+.lead-intro p {
+    font-size: 11.5px;
+    color: #787878;
+    font-weight: 500;
+    line-height: 1.75;
+}
+a.viewmore-btn:after {
+    content: '';
+    position: absolute;
+    display: flex;
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    height: 1px;
+    width: 100%;
+    transition: ease 0.75s width;
+    margin-top: -4px;
+}
+a.viewmore-btn {
+    position: relative;
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+.Viewmore-block {position: relative;display: flex;justify-content: center;}
+
+a.viewmore-btn:hover:after {
+    width: 0;
+}
+a.viewmore-btn i {
+    margin-left: 0px;
+    transition: ease 0.5s;
+}
+a.viewmore-btn:hover i {
+    margin-left: 5px;
+}
+.lead-card:hover {
+    border: 2px solid #1ba38f;
+}
+.lead-card:hover .leadicon {
+    background: #fff;
+    border: 2px solid #1ba38f;
+    color: #1ba38f;
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .built-block h2{
+        font-size: 1.75rem;
+    }
+    .lead-card{
+        height: 285px;
+    }
+}
+@media screen and (max-width:991px){
+    .lead-intro{
+        padding-top: 30px;
+    }
+    .chart-info p{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .lead-card{
+        height: 220px;
+        padding: 1rem 0.25rem;
+    }
+    .lead-intro h5{
+        font-size: 0.8rem;
+    }
+    a.viewmore-btn{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:991px){
+   .chart-info h2, .built-block h2{
+        font-size: 1.4rem;
+    }
+    .built-block p{
+        font-size:11px;
+    }
+    .leadicon{
+        width: 65px;
+        height: 65px;
+        font-size: 1.5rem;
+    }
+    .leadcard-section{
+        padding-top: 5rem;
+        padding-bottom: 0rem;
+    }
+    .lead-intro p{
+        font-size: 9.5px;
+    }
+}
+@media screen and (max-width:767px){
+    .order-xs-2{
+        order:2;
+    }
+    .lead-card{
+        margin-bottom: 4rem;
+        height:auto;
+    }
+    section.built-section{
+        padding-bottom:0rem;
+    }
+    .lead-intro p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:475px){
+    .chart-info h2, .built-block h2{
+        font-size: 1.25rem;
+    }
+}
+
+/* section (Built in email) css end */
+
+/* section Import & Export start css */
+section.import-export {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.ie-cricle {
+    width: 135px;
+    height: 135px;
+    background: #fff;
+    border-radius: 50%;
+    background-image: url('../images/ninja-arrow.png');
+    background-position: center;
+    background-size: 95px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.ie-label {
+    padding-left: 11rem;
+}
+.ie-label h3 {
+    line-height: 1.25;
+    font-size: 1.45rem;
+}
+.ie-label p {
+    font-size: 12px;
+    line-height: 1.75;
+    font-weight: 500;
+    color: #333;
+}
+.ie-cricle.ie-rotate {
+    transform: rotate(180deg);
+}
+.influencerbtn-block {
+    margin-top: 3rem;
+}
+button.influencer-btn {
+    font-size: 12px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.38823529411764707);
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: ease 0.25s;
+    border: 2px solid #26b386;
+    outline: none;
+    color: #fff;
+}
+button.influencer-btn:hover {
+    background-color: #fff !important;
+    color: #1aa190 !important;
+    border-color: #1aa190 !important;
+    background: #fff !important;
+}
+@media screen and (max-width:1199px){
+    .ie-cricle{
+        width: 100px;
+        height: 100px;
+        background-size: 85px;
+    }
+    .ie-label{
+        padding-left: 8rem;
+    }
+    .ie-label h3{
+        font-size: 1.35rem;
+    }
+    .influencerbtn-block{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:991px){
+    section.import-export{
+        padding-top: 3rem;
+        padding-bottom: 2.5rem; 
+    }
+    .ie-cricle{
+        width: 85px;
+        height: 85px;
+        background-size: 65px;
+    }
+    .ie-label p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:475px){
+    .ie-label {
+        padding-left: 5.5rem;
+        padding-top: 1rem;
+    }
+    .ie-label h3{
+        font-size: 1rem;
+    }
+    .ie-cricle{
+        width: 70px;
+        height: 70px;
+        background-size: 55px;
+        margin-top: 15px;
+    }
+}
+/* section Import & Export end css */
+
+/* section Schedule emails to start css */
+section.Schedule-section {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.schedule-head h2 {
+    line-height: 1.35;
+}
+.schedule-head p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #787878;
+    line-height: 1.75;
+}
+.Schedule-icon i {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 2px 10px rgba(26, 161, 144, 0.3411764705882353);
+}
+.Schedule-label h3 {
+    font-size: 1.5rem;
+    line-height: 1.35;
+}
+.Schedule-label p {
+    color: #787878;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.75;
+}
+@media screen and (max-width:1199px){
+    .schedule-head h2{
+        font-size: 1.75rem; 
+    }
+}
+@media screen and (max-width:991px){
+    .schedule-head h2{
+        font-size: 1.5rem; 
+    }
+    section.Schedule-section{
+        padding-bottom: 2rem;
+    }
+    .Schedule-label h3{
+        font-size: 1.35rem;
+    }
+    .Schedule-label p, .schedule-head p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:475px){
+    .schedule-head h2, .Schedule-label h3{
+        font-size: 1.25rem;
+    }
+}
+/* section Schedule emails to end css */ 
+
+/* Section 6 five block (card style) content css start */
+section.blockfive-section {
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    background: #fff;
+}
+.five-main {
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+    background: #fff;
+    padding: 0.75rem;
+    border-radius: 4px;
+    height: 215px;
+    margin-bottom: 1.5rem;
+}
+.five-icon {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1.65rem;
+}
+.five-title h6 {
+    line-height: 1.45;
+    font-weight: 600;
+    color: #003333;
+}
+.five-title p {
+    font-size: 10px;
+    font-weight: 500;
+    color: #787878;
+    line-height: 1.85;
+}
+@media screen and (max-width:991px){
+    .five-icon{
+        width:60px;
+        height: 60px;
+    }
+    section.blockfive-section{
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+    }
+    .five-main{
+        height: 205px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:767px){
+    .five-main{
+        height: 225px;
+    }
+}
+@media screen and (max-width:575px){
+    .five-main{
+        height: auto;
+    }
+}
+/* Section 6 five block (card style) content css end */
+
+/* section 7 Manage your list content css start */
+section.ml-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.ml-label p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #787878;
+    line-height: 1.75;
+}
+@media screen and (max-width:1199px){
+    .ml-label h3 {
+        font-size: 1.5rem;
+    }
+    section.ml-section{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+@media screen and (max-width:991px){
+    .ml-label h3 {
+        font-size: 1.35rem;
+    }
+    section.ml-section{
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width:475px){
+    .ml-label h3 {
+        font-size: 1.25rem;
+    }
+}
+/* section 7 Manage your list content css end */
+
+/* section 8 Easily personalize content css start */
+section.easily-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: #fff;
+}
+.easily-label h3 {
+    font-size: 1.5rem;
+}
+.easily-label p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #787878;
+    line-height: 1.75;
+}
+@media screen and (max-width:1199px){
+    .easily-label p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:991px){
+    .easily-label h3{
+        font-size: 1.35rem;
+    }
+    section.easily-section{
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+    }
+}
+/* section 8 Easily personalize content css end */
+
+/* section 9 Social Media Influencer content css start */
+section.socialM-section {
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+}
+.sociaM-main h6 {
+    font-weight: 600;
+    font-size: 13px;
+}
+.sociaM-main p {
+    color: #787878;
+    font-size: 11px;
+    font-weight: 500;
+}
+button.gstart-btn {
+    font-size: 12px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.38823529411764707);
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: ease 0.25s;
+    border: 2px solid #26b386;
+    outline: none;
+    color: #fff;
+}
+button.gstart-btn:hover {
+    background-color: #fff !important;
+    color: #1aa190 !important;
+    border-color: #1aa190 !important;
+    background: #fff !important;
+}
+.help-block h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    font-size: 0.9rem;
+}
+.help-block a {
+    position: relative;
+    color: #38ce79;
+    text-decoration: none;
+}
+.help-block h6 a {
+    color: #38ce79;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 1.75;
+}
+.help-block a:after {
+    content: '';
+    position: absolute;
+    display: block;
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    height: 1px;
+    width: 100%;
+    transition: ease 0.75s width;
+    margin-top: -5px;
+    left: 0;
+    right: 0;
+}
+.help-block a:hover:after {
+    width: 0;
+}
+.help-block p {
+    color: #787878;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.75;
+}
+.help-block p a b {
+    color: #38ce79;
+    text-decoration: none;
+    white-space: nowrap;
+}
+@media screen and (max-width:1199px){
+    section.socialM-section{
+        padding-bottom: 0rem;
+    }
+    .sociaM-main h2 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:767px){
+    section.socialM-section{
+        padding-top: 3rem;
+    }
+}
+/* section 9 Social Media Influencer content css end */

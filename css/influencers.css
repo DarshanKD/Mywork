@@ -1,0 +1,1112 @@
+/* ---- Find Instagram Influencers page css start---------------------
+---------------------------------------------------------------------- */
+.z-index-111{
+    z-index: 111;
+}
+/* --- How to Find Instagram Influencers (section 1) css start --- */
+.insta-influe-img {
+    position: absolute;
+}
+.insta-influe-block {
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.insta-influe-icon {
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    top: 0;
+    left:0px;
+    padding: 15px;
+}
+.insta-influe-no {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.insta-influe-no h4 {
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    text-shadow: 1px 2px 10px rgba(26, 161, 144, 0.2901960784313726);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-bottom: 0rem;
+    position: relative;
+    top: -13px;
+}
+.insta-influe-no h5 {
+    color: #333;
+    font-weight: bold;
+    max-width: 138px;
+    font-size: 0.8rem;
+    position: relative;
+    left: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+}
+.btn-find-influe {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    padding: 0.75rem 1.75rem;
+    border: 2px solid #2ab983;
+    outline: none;
+    transition: ease 0.25s;
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.38823529411764707);
+}
+.btn-find-influe:hover {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #fff;
+}
+@media screen and (min-width:992px){
+    .find-insta-bg {
+        background-image: url(../images/find-insta-bg.png);
+        background-size: 100% 95%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:1199px){
+    .insta-influe-block{
+        height: 200px;
+        max-width: 280px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:1199px){
+    .insta-influe-icon{
+        width: 55px;
+        height: 55px;
+        padding: 12px;
+        margin-top: 35px;
+        margin-left: 15px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .insta-influe-no h5{
+        max-width: 125px;
+        font-size: 0.65rem;
+    }
+    .insta-influe-no h4{
+        font-size: 2.25rem;
+    }
+}
+@media screen and (max-width:991px){
+    .btn-find-influe{
+        padding: 0.75rem;
+        font-size: 13px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .insta-influe-no h5{
+        max-width: 145px;
+        font-size: 0.85rem;
+    }
+    .insta-influe-icon{
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width:767px){
+    .insta-influe-no h5{
+        font-size: 0.7rem;
+    }
+    .insta-influe-block{
+        height: 200px;
+    }
+    .insta-influe-icon{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:575px){
+    .insta-influe-main{
+        max-width: 50%;
+    }
+}
+@media screen and (max-width:499px){
+    .insta-influe-icon{
+        margin-top: 25px;
+        /* margin-left: 40px; */
+    }
+    .insta-influe-block{
+        max-width: 290px;
+        height: 225px;
+    }
+    .insta-influe-no h5{
+        font-size: 0.9rem;
+    }
+    /* .insta-influe-img img{
+        height: 220px;
+    } */
+}
+/* --- How to Find Instagram Influencers (section 1) css end --- */
+
+/* --- Find Instagram Influencers (section 2) css start --- */
+@media screen and (max-width:991px){
+    p.find-txt{
+        font-size: 12px;
+    }
+}
+/* --- Find Instagram Influencers (section 3) css start --- */
+
+/* --- Section 3 (4 blocks) content css start --- */
+section.moreblock-section {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.insta-wrapper {
+    padding: 1rem 0.65rem;
+    height: 145px;
+}
+.insta-wrapper .wrapper-icon {
+    width: 57px;
+    height: 57px;
+    padding: 9px;
+}
+.insta-wrapper .wrapper-details {
+    width: calc(100% - 60px);
+    padding-left: 0.75rem;
+}
+.insta-wrapper .wrapper-details h6 {
+    font-size: 0.95rem;
+}
+.insta-wrapper .wrapper-details p {
+    font-size: 12px;
+}
+@media screen and (max-width:1199px){
+    .insta-wrapper .wrapper-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .insta-wrapper .wrapper-details{
+        width: calc(100% - 50px);
+    }
+    .insta-wrapper .wrapper-details h6{
+        font-size: 0.85em;
+    }
+    .insta-wrapper{
+        height: 155px;
+    }
+    section.moreblock-section {
+        padding-top: 4.5rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width:991px) {
+    .insta-wrapper{
+        height: 140px;
+    }
+    section.moreblock-section {
+        padding-top: 3rem;
+    }
+}
+@media screen and (max-width:767px){
+    .insta-wrapper .wrapper-details h6{
+        font-size: 0.8em;
+    }
+    .insta-wrapper .wrapper-details p {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:575px){
+    .insta-wrapper .wrapper-details h6{
+        font-size: 1rem;
+    }
+    .insta-wrapper .wrapper-details p {
+        font-size: 12px;
+    }
+    .insta-wrapper{
+        height: auto;
+        padding: 1rem;
+    }
+}
+/* --- Section 3 (4 blocks) content css end --- */
+
+/* Say Goodbye To Manual Email Research (section 4) start css */
+.goodbye-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #fff;
+}
+.btn-start-saving {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    padding: 0.75rem 1.75rem;
+    border: 2px solid #2ab983;
+    outline: none;
+    transition: ease 0.25s;
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.38823529411764707);
+}
+.btn-start-saving:hover {
+    background: -webkit-linear-gradient(#1aa190 0%, #39cf78 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #fff;
+}
+@media screen and (min-width:768px){
+    .goodbye-section {
+        background: #fff url(../images/goodbye-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:1199px){
+    .goodbye-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+@media screen and (max-width:991px){
+    .btn-start-saving{
+        padding: 0.75rem 0.5rem;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:767px){
+    .goodbye-section{
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width:359px){
+    .btn-start-saving{
+        padding: 0.75rem 0.5rem;
+        font-size: 11px;
+    }
+}
+/* Say Goodbye To Manual Email Research (section 4) end css */
+
+/* Save Your Instagram Lead (section 5) start csss */
+section.saveinsta-section {
+    padding-top: 4.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+section.saveinsta-section:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../images/save-insta-bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.save-head p {
+    color: #333;
+}
+.save-head h2 {
+    line-height: 1.35;
+}
+@media screen and (min-width:992px){
+    section.saveinsta-section {
+        background-image: url(../images/find-insta-bg.png);
+        background-size: 100% 80%;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:1199px){
+    .save-head h2 {
+        font-size: 1.75rem;
+    }
+    .save-head p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 991px){
+    .save-head h2 {
+        font-size: 1.4rem;
+    }
+    section.saveinsta-section{
+        padding-top: 3rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .save-head h2 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:767px){
+    .saveinsta-img {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 475px){
+    .save-head h2 {
+        font-size: 1.25rem;
+    }
+}
+/* Save Your Instagram Lead (section 5) end css */
+
+/* Always Make Sure Your Leads Data Are Accurate section (6) start css*/
+.builtcrm-bg{
+    background-image: url(../images/BuiltCRM-bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:575px){
+    .start-saveing-insta {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:359px){
+    .start-saveing-insta {
+        font-size: 11px;
+        padding: 10px;
+    }
+}
+/* Always Make Sure Your Leads Data Are Accurate section (6) end css*/
+
+/* Send Compelling Outreach Messages​ section (7) start css */
+.workmessage-bg{
+    background: url(../images/Workmessage-bg.png) !important;
+    background-size: cover !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 4.5rem !important;
+    padding-bottom: 0rem !important;
+}
+@media screen and (max-width:991px){
+    .workmessage-bg{
+        padding-top: 3.5rem !important;
+    }
+    .workmessage-img{
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Send Compelling Outreach Messages​ section (7) end css */
+
+/* ---- Find Instagram Influencers page css end---------------------
+---------------------------------------------------------------------- */
+
+/* ---- Find Twitter Influencers page css start---------------------
+---------------------------------------------------------------------- */
+
+/* How To Find Top Twitter Influencers (section 1) css start */
+@media screen and (min-width:992px){
+    .inf-label h3{
+        font-size: 1.65rem;
+    }
+    .inf-label p{
+        font-size: 14px;
+    }
+}
+/* How To Find Top Twitter Influencers (section 1) css end */
+
+/* Send Outreach Messages (section 3) css start */
+.Outreach-section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.sendmail-icon{
+    transform: rotate(0deg) !important;
+    background-image: url(../images/peexy-rocket.png);
+    background-size: 75%;
+}
+.sendmail-icon ~ .ie-label h3 {
+    font-weight: 600;
+}
+@media screen and (min-width:1200px){
+    .sendoutreach-head p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:991px){
+    .saveinsta-content .influencer-btn{
+        padding: 10px 10px;
+        font-size: 11px;
+    }
+    .Outreach-section{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .Sendmai-img{
+        transform: scale(1.15);
+    }
+    .saveinsta-content .ie-label{
+        padding-left: 6.5rem;
+    }
+}
+@media screen and (max-width:767px){
+    .sendoutreach-head h3{
+        font-size: 1.48rem;
+    }
+}
+@media screen and (max-width:400px){
+    .saveinsta-content .influencer-btn{
+        font-size: 10px;
+        padding:10px 5px;
+    }
+}
+/* Send Outreach Messages (section 3) css end */
+
+/* Send Outreach Messages (section 4) css start */
+@media screen and (min-width:992px){
+    .Find-Email{
+        background: #fff url(../images/goodbye-bg1.png);
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+}
+.tw-lead{
+    padding: 20px;
+}
+.lead-card:hover .h-none{
+   display: none;
+}
+.lead-card .h-show{
+    display: none;
+}
+.lead-card:hover .h-show{
+    display: block;
+}
+@media screen and (max-width:991px){
+    .tw-lead{
+        padding: 12px;
+    }
+    .tw-data-block h4{
+        font-size: 1.35rem;
+    }
+}
+@media screen and (max-width:767px){
+    .Find-Email{
+        padding-bottom: 0rem;
+    }
+    .tw-data-block h4{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width:575px){
+    .tw-data-block h4{
+        font-size: 1.15rem;
+    }
+}
+/* Send Outreach Messages (section 4) css end */
+
+/* Manage Social Media Influencer Relationships (section 7) start css */
+@media screen and (min-width:1200px){
+    .manage-txt h3{
+        font-size: 1.625rem;
+    }
+}
+/* Manage Social Media Influencer Relationships (section 7) end css */
+
+/* ---- Find Twitter Influencers page css end---------------------
+---------------------------------------------------------------------- */
+
+/* ---- Influencer-Marketing-Agency-Software css start---------------------
+---------------------------------------------------------------------- */
+
+/* Large Capacity, All-In-One Influencer section1 css start */
+@media screen and (min-width:992px){
+    .Large-section{
+        background-image: url(../images/find-insta-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 65% 150%;
+    }
+}
+/* Large Capacity, All-In-One Influencer section1 css end */
+
+/* For Efficient, Large-Scale section3 css start */
+.automate-section{
+    background-image: url(../images/automate-bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+span.ie-top-head {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: #fff;
+}
+@media screen and (max-width:991px){
+    .automate-section{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+}
+/* For Efficient, Large-Scale section3 css end */
+
+/* INFLUENCER MARKETING AGENCY FEATURES section6 css start */
+.f-agnecy-bg{
+    background: #fff url(../images/f-agency-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.insta-wrapper .f-agency-label{
+    padding-left: 1.5rem;
+    width: calc(100% - 75px);
+}
+.features-agency{
+    padding: 1rem;
+    height: 128px;
+    margin-bottom: 2rem;
+}
+@media screen and (min-width:1200px){
+    .f-agnecy-bg{
+        padding-top: 3.5rem !important;
+    }
+}
+@media screen and (max-width:1199px){
+    .features-agency{
+        padding: 1rem;
+        height: 120px;
+        margin-bottom: 2rem;
+    }
+    .features-agency .five-icon{
+        width: 65px;
+        height: 65px;
+    }
+    .insta-wrapper .f-agency-label{
+        padding-left: 1rem;
+        width: calc(100% - 60px);
+    }
+}
+@media screen and (max-width:991px){
+    .insta-wrapper .f-agency-label{
+        padding-left: 1.5rem;
+        width: calc(100% - 80px);
+    }
+}
+@media screen and (max-width:767px){
+    .features-agency{
+        padding: 0.5rem;
+        height: 100px;
+        margin-bottom: 2rem;
+    }
+    .features-agency .five-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.25rem;
+    }
+    .insta-wrapper .f-agency-label{
+        padding-left: 0.75rem;
+        width: calc(100% - 50px);
+    }
+}
+@media screen and (max-width:575px){
+    .features-agency{
+        height: auto;
+    }
+}
+/* INFLUENCER MARKETING AGENCY FEATURES section6 css end */
+
+/* Launch Any Influencer Marketing Agency Campaign section start css */
+.newlunch-section{
+    background-image: url(../images/save-insta-bg.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+.newlunch-title{
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+.lunch-block {
+    max-width: 160px;
+    width: 160px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    position: relative;
+    height: 65px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.lunch-block:before {
+    background: linear-gradient(0deg, #1aa190, #39cf78);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 6px;
+}
+.lunch-block h6 {
+    position: relative;
+    z-index: 11;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.lunch-block:after {
+    background: #fff;
+    content: '';
+    position: absolute;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    left: 0px;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+    border-radius: 6px;
+    margin: auto;
+}
+@media screen and (max-width:1199px){
+    .newlunch-section{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+@media screen and (max-width:767px){
+    .lunch-block{
+        width: 140px;
+    }
+    .lunch-block h6{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:359px){
+    .lunch-block{
+        width: 120px;
+        height: 60px;
+    }
+    .lunch-block h6{
+        font-size: 12px;
+    }
+}
+/* Launch Any Influencer Marketing Agency Campaign section start end */
+
+/* Save Time & Money block start css */
+.savetime-img {
+    max-width: 360px;
+    margin: auto;
+}
+.savetime-right h3 small {
+    font-weight: 500;
+}
+.savetime-right h6 {
+    font-weight: 400;
+    font-size: 15px;
+}
+.savetime-right h5 {
+    font-size: 16px;
+}
+@media screen and (max-width:575px){
+    .savetime-wrapper h4{
+        font-size: 20px;
+    }
+    .savetime-wrapper p, .savetime-right p{
+        font-size: 12px;
+    }
+    .savetime-right h6{
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .newlunch-section{
+        padding-bottom: 2.5rem;
+    }
+}
+/* Save Time & Money block end css */
+
+/* All It Takes is a Few Seconds start css */
+.serach-section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+.serach-section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+.search-img {
+    max-width: 200px;
+}
+.serach-list {
+    width: calc(100% - 225px);
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.38823529411764707);
+    border-radius: 6px;
+    padding: 1.5rem 1.25rem 0.15rem 1.75rem;
+}
+.serach-list ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.serach-list ul li p i {
+    font-size: 22px;
+    color: #fff;
+}
+.serach-list ul li p {
+    font-size: 15px;
+}
+
+@media screen and (max-width:1199px){
+    .serach-list ul li p{
+        font-size: 14px;
+    }
+    .serach-label-wrapper h3 {
+        font-size: 24px;
+    }
+    .serach-label-wrapper p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:991px){
+    .serach-section{
+        padding-top: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .serach-list ul li p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:575px){
+    .serach-list{
+        width: calc(100% - 0px);
+        max-width: 370px;
+    }
+    .serach-list ul li p i{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:475px){
+    .serach-label-wrapper h3{
+        font-size: 20px;
+    }
+    .serach-label-wrapper p{
+        font-size: 12px;
+    }
+}
+/* All It Takes is a Few Seconds end css */
+
+/* Get Emails & Other Leads Data start css */
+section.emailother-list {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.emailother-wrapper p {
+    font-size: 14px;
+}
+.emailother-wrapper h3 {
+    font-size: 1.5rem;
+}
+.emailother-wrapper h6 {
+    font-size: 13px;
+}
+.E-other-icon {
+    background: linear-gradient(90deg, #1aa190, #39cf78);
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+    width: 55px;
+    height: 53px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 55px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.E-other-list {
+    max-width: 240px;
+    width: 230px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 3rem;
+}
+.E-other-wrap .E-other-list h6 {
+    color: #333333;
+}
+@media screen and (max-width:991px){
+    .E-other-list{
+        width:200px;
+    }
+    .E-other-icon{
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+    }
+    .E-other-wrap .E-other-list h6{
+        font-size: 14px;
+    }
+    section.emailother-list {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .Browse-wrapper{
+        max-width:450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:575px){
+    .emailother-wrapper h3{
+        font-size: 20px;
+    }
+    .E-other-wrap .E-other-list h6 {
+        font-size: 12px;
+        width: calc(100% - 40px);
+        line-height: 1.5;
+    }
+    .E-other-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .E-other-list {
+        width: 135px;
+        margin-bottom: 2rem;
+    }
+    .emailother-wrapper p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:359px){
+    .E-other-list {
+        width: 115px;
+    }
+}
+/* Get Emails & Other Leads Data end css */
+
+/* Save Data As You Browse On The Web start css */
+section.savedate-chrome{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+button.btn.extension-btn {
+    border: 2px solid #2ab983;
+    outline: none;
+    transition: ease 0.25s;
+    height: 48px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+button.btn.extension-btn:hover {
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+}
+.btn-bg-GR{
+    background: linear-gradient(90deg, #1aa190, #39cf78) !important;
+    color: #fff;
+    -webkit-text-fill-color: unset !important;
+    box-shadow: 1px 2px 10px 0px rgba(26, 161, 144, 0.2901960784313726);
+}
+.btn-bg-GR:hover {
+    background: #fff !important;
+    background: -webkit-linear-gradient(#1aa190, #39cf78) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+@media screen and (min-width:1200px){
+    section.savedate-chrome{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width:991px){
+    section.savedate-chrome{
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    button.btn.extension-btn{
+        font-size: 14px;
+        height: 45px;
+    }
+}
+@media screen and (max-width:359px){
+    button.btn.extension-btn{
+        font-size: 12px;
+    }
+}
+/* Save Data As You Browse On The Web end css */
+
+/* Work on More Projects css start */
+section.work-project {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.workp-cricle {
+    width: 100px;
+    height: 100px;
+    background-size: 75px;
+}
+.workp-label {
+    padding-left: 8rem;
+}
+.workproject-list {
+    padding-top: 3.5rem;
+}
+.workproject-list ul {
+    padding-left: 0px;
+    list-style: none;
+}
+.workproject-list ul li p i {
+    font-size: 20px;
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline !important;
+}
+.workproject-list ul li p {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+.workproject-list ul li p span {
+    font-size: 14px;
+    font-weight: 500;
+}
+.work-sub-wrap {
+    background: #fff;
+    border-radius: 4px;
+    border-left: 4px solid #26b288;
+    padding: 0.85rem 1rem 0.5rem;
+    margin-top: 3rem;
+    box-shadow: 1px 2px 10px 0px #e5f0fb;
+}
+.work-sub-wrap h6 {line-height: 1.5;font-size: 18px;}
+
+@media screen and (max-width:1199px){
+    .workp-cricle {
+        width: 90px;
+        height: 90px;
+        background-size: 65px;
+    }
+    .workp-label {
+        padding-left: 6.5rem;
+    }
+    .workproject-list ul li p span{
+        font-size: 13px;
+    }
+    .work-sub-wrap h6{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:991px){
+    section.work-project{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .worklist-img-wrap {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:575px){
+    .workp-cricle {
+        width: 80px;
+        height: 80px;
+        background-size: 60px;
+    }
+    .workp-label{
+        padding-left: 6rem;
+    }
+    .work-sub-wrap{
+        margin-top: 2rem;
+    }
+    .workproject-list{
+        padding-top: 3rem;
+    }
+    .workproject-list ul li p span{
+        font-size: 12px;
+    }
+    .work-sub-wrap h6{
+        font-size: 14px;
+    }
+}
+/* Work on More Projects css end */
+
+/* WORK CLOSELY WITH YOUR TEAM css start */
+.workteam-section{
+    padding-bottom: 3rem !important;
+}
+section.saveinsta-section.workteam-section:after{
+    z-index: 11;
+}
+.closely-wrapper h5 {
+    background: -webkit-linear-gradient(#1aa190, #39cf78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.workteam-cricle{
+    box-shadow: 0px -3px 10px 0px #dfe8f1;
+}
+@media screen and (min-width:768px){
+    .workteam-section{
+        background:#fff url(../images/find-insta-bg.png);
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:991px){
+    section.workteam-section{
+        padding-bottom: 2rem !important;
+    }
+}
+@media screen and (max-width:767px){
+    .workteam-section{
+        background:#fff;
+    }
+    .workteam-img{
+        max-width: 300px;
+    }
+    section.saveinsta-section{
+        padding-top: 2.5rem;
+    }
+}
+/* WORK CLOSELY WITH YOUR TEAM css end */
+
+/* ---- Influencer-Marketing-Agency-Software css end---------------------
+---------------------------------------------------------------------- */
