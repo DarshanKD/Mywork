@@ -1,0 +1,863 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Family css -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+
+    <!-- Font-Awesome Icon CSS -->
+    <link rel="stylesheet" href="font-icon/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/head-footer.css">
+    <link rel="stylesheet" href="css/youtube-search.css">
+
+    <title>instagram Search</title>
+  </head>
+  <body class="d-flex flex-column h-100">
+
+    <!-- Navbar Menu Content start -->
+    <nav class="navbar navbar-expand-lg navbar-dark main-bg">
+        <div class="container">
+            <a class="navbar-brand mr-auto mr-lg-5 logo-content" href="#">
+                <img src="./images/logo.png" class="img-fluid">
+            </a>
+            <button class="navbar-toggler p-0 border-0 mr-3 mobile-btn" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse Menu-bg" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item active" href="#">Instagram Search</a>
+                            <a class="dropdown-item border-bottom-0" href="#">Youtube Search</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Case Studies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Features </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item border-bottom-0" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MarketPlace (Beta)</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0 signup-btn ml-2 ml-lg-0" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Menu Content end -->    
+
+    <!-- Heading section start -->
+    <section class="head-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="head-title">
+                        <h2 class="text-center d-flex align-items-center justify-content-center"><i class="fab fa-instagram pr-2"></i><b>Instagram</b></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 pt-2">
+                <div class="col-sm-7 col-md-6 col-lg-4 col-xl-4">
+                    <div class="form-group position-relative">
+                        <input class="form-control inputstyle-box" type="text" placeholder="User Keywords Like art, sport, fitness, etc.">
+                        <button class="btn find-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col-sm-5 col-md-6 col-lg-3 col-xl-2 pr-xl-0">
+                    <div class="form-group position-relative">
+                        <input class="form-control inputstyle-box" type="text" placeholder="Country">
+                        <button class="btn find-btn"><i class="fas fa-map-marker-alt"></i></button>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-6 col-lg-4 col-xl-4">
+                    <div class="channel-block d-flex align-items-center">
+                        <span class="gray-txt font-weight-500 font-size-13">Displaying <strong class="text-dark">50</strong> of <strong class="text-dark">135,489</strong> channels (0.2 seconds)</span>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-2 col-md-6 col-lg-1 col-xl-2 d-flex align-items-ceter justify-content-end position-relative">
+                    <button class="btn find-btn box-shadow-light mr-3 mr-lg-0" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton1">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Heading section end -->
+
+    <!-- section filter start -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-4 col-lg-3 col-xl-3">
+                    <div class="filter-list mb-4 mb-sm-0">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="filterlist-type active">
+                                    <div class="filter-icon">
+                                        <img src="./images/skin.png" class="img-fluid">
+                                        <img src="./images/skin-white.png" class="img-fluid filter-show">
+                                    </div>
+                                    <div class="filter-name pl-2"><h6>Beauty</h6></div>
+                                </div>
+                                <div class="filterlist-type active">
+                                    <div class="filter-icon">
+                                        <img src="./images/clothes.png" class="img-fluid">
+                                        <img src="./images/clothes-white.png" class="img-fluid filter-show">
+                                    </div>
+                                    <div class="filter-name pl-2"><h6>Fashion</h6></div>
+                                </div>
+                                <div class="filterlist-type">
+                                    <div class="filter-icon">
+                                        <img src="./images/gym.png" class="img-fluid">
+                                        <img src="./images/gym-white.png" class="img-fluid filter-show">
+                                    </div>
+                                    <div class="filter-name pl-2"><h6>Fitness</h6></div>
+                                </div>
+                                <div class="filterlist-type">
+                                    <div class="filter-icon">
+                                        <img src="./images/gloves.png" class="img-fluid">
+                                        <img src="./images/gloves-white.png" class="img-fluid filter-show">
+                                    </div>
+                                    <div class="filter-name pl-2"><h6>CLothes & Accessories</h6></div>
+                                </div>
+                                <div class="filterlist-type">
+                                    <div class="filter-icon mask-icon">
+                                        <img src="./images/lifestyle.png" class="img-fluid">
+                                        <img src="./images/lifestyle-white.png" class="img-fluid filter-show">
+                                    </div>
+                                    <div class="filter-name pl-2"><h6>Lifestyle</h6></div>
+                                </div>
+                                <div class="filterlist-type">
+                                    <div class="filter-icon mortarboard-icon">
+                                        <img src="./images/pizza.png" class="img-fluid">
+                                        <img src="./images/pizza-white.png" class="img-fluid filter-show">
+                                    </div>
+                                    <div class="filter-name pl-2"><h6>Food</h6></div>
+                                </div>
+                                <div class="filterlist-type">
+                                    <div class="filter-icon mortarboard-icon">
+                                        <img src="./images/wellness.png" class="img-fluid">
+                                        <img src="./images/wellness-white.png" class="img-fluid filter-show">
+                                    </div>
+                                    <div class="filter-name pl-2"><h6>Health</h6></div>
+                                </div>
+                                <div class="filterlist-type">
+                                    <div class="filter-icon mortarboard-icon">
+                                        <img src="./images/travel.png" class="img-fluid">
+                                        <img src="./images/travel-white.png" class="img-fluid filter-show">
+                                    </div>
+                                    <div class="filter-name pl-2"><h6>Travel</h6></div>
+                                </div>
+                                <div class="dropdown filte-dropdown">
+                                    <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Expand <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-md-8 col-lg-9 col-xl-9">
+                    <div class="row justify-content-between ">
+                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-xl-4">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                                <!-- <h6 class="green-txt"><b>T-Series</b></h6> -->
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                                <!-- <h6 class="green-txt"><b>T-Series</b></h6> -->
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                                <!-- <h6 class="green-txt"><b>T-Series</b></h6> -->
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                                <!-- <h6 class="green-txt"><b>T-Series</b></h6> -->
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-xl-4">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                                <!-- <h6 class="green-txt"><b>T-Series</b></h6> -->
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                                <!-- <h6 class="green-txt"><b>T-Series</b></h6> -->
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                                <!-- <h6 class="green-txt"><b>T-Series</b></h6> -->
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                                <!-- <h6 class="green-txt"><b>T-Series</b></h6> -->
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-xl-4">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="download-content">
+                                        <div class="download-evthing">
+                                            <h6 class="mb-3 pb-1"><b>Download Everything</b></h6>
+                                            <p>There are 39,925 profiles matching your search. The
+                                            Instagram data dump includes 2,395,500 data points.</p>
+                                            <div class="download-instbtn mt-4">
+                                                <button class="btn insta-pricebtn">
+                                                <span>Download Instagram data for $99</span>
+                                                </button>
+                                            </div>
+                                            <div class="insta-you-price mt-4 pt-0 pt-sm-3 pr-1">
+                                                <p>Export both Instagram and YouTube data (2,395,500
+                                                + 31,075,044 data points for the same search) for a
+                                                big discount.</p>
+                                                <div class="download-instbtn pt-1">
+                                                    <button class="btn insta-pricebtn">
+                                                    <span>Download Instagram + YouTube data for $1,599</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="included-block mt-4 mt-sm-5">
+                                            <h6><b>What's included?</b></h6>
+                                            <div class="included-list pt-2">
+                                                <ul>
+                                                    <li><i class="fas fa-circle"></i><span>Emails (personal and business)</span></li>
+                                                    <li><i class="fas fa-circle"></i><span>Engagement rate</span></li>
+                                                    <li><i class="fas fa-circle"></i><span>Gender</span></li>
+                                                    <li><i class="fas fa-circle"></i><span>Age</span></li>
+                                                    <li><i class="fas fa-circle"></i><span>Location</span></li>
+                                                    <li><i class="fas fa-circle"></i><span>Website</span></li>
+                                                    <li><i class="fas fa-circle"></i><span>... and other 44 data points for each profile</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="download-file mt-4 pb-1 mt-md-5 pb-md-4">
+                                            <div class="downloadfile-txt">
+                                                *not all profiles have emails
+                                            </div>
+                                            <button class="btn insta-pricebtn dwnfile-btn mb-0">
+                                                <span>Download Simple File</span>
+                                            </button>
+                                            <div class="simplefile-dwn">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="filter-block instafilter-block">
+                                        <div class="f-name justify-content-between">
+                                            <div class="insta-block d-flex align-items-center">
+                                                <div class="f-cricle-img insta-img">
+                                                    <img src="./images/f-user.png" class="img-fluid">
+                                                </div>
+                                                <div class="f-name-details insta-details">
+                                                    <h6 class="mb-1"> <b>Kris Jenner</b></h6>
+                                                    <p class="mb-0">@Lorem ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="insta-follower text-center">
+                                                <div class="insta-bg">
+                                                    Followers
+                                                </div>
+                                                <h5>50.99k</h5>
+                                            </div>
+                                        </div>
+                                        <div class="f-info">  
+                                            <div class="f-data insta-data">
+                                                <h6><b class="pr-2 yellow-txt">1.20%</b><b>Engagement</b></h6>
+                                            </div>
+                                            <div class="f-data insta-data">
+                                                <h6><b class="red-txt pr-2">43.99k</b><b>Likes Per Posts</b></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 pt-md-2 pb-md-2 pl-0 pr-0">
+                                                <hr>
+                                            </div>
+                                        </div>
+                                        <div class="instabtns-content d-flex flex-wrap">
+                                            <button class="insta-btns"><span>Fashion</span></button>
+                                            <button class="insta-btns"><span>Beauty &amp; Cosmetics</span></button>
+                                        </div>
+                                        <div class="addplus-block">
+                                            <button class="btn addplus-btn"><i class="fas fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                     <div class="row">
+                        <div class="col-sm-12">
+                            <div class="filter-pagination mt-4">
+                                <button class="btn filter-prev-btn">
+                                    <i class="fas fa-angle-left"></i><i class="fas fa-angle-left"></i>
+                                    <span>PREV</span>
+                                </button>
+                                <button class="btn filter-number-btn active">
+                                    <span>01</span>
+                                </button>
+                                <button class="btn filter-number-btn">
+                                    <span>02</span>
+                                </button>
+                                <button class="btn filter-prev-btn ml-3">
+                                    <span class="pr-2">NEXT</span>
+                                    <i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 text-center mt-5">
+                            <button class="Keepsrh-btn">Keep Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section filter end -->
+
+    <!-- Footer content start -->
+    <footer class="footer mt-auto">
+        <div class="col-sm-12 pl-sm-0 pr-sm-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3">
+                        <div class="signup-label">
+                            <h2 class="text-white"><b>Sign Up To</b><br>
+                                <span class="font-weight-light">Our Newsletter</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-8 col-xl-9">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-box" placeholder="Enter Your Email">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-box" placeholder="Enter Your Name">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                <button class="btn Subscribe-btn">Subscribe</button>
+                            </div>
+                            <div class="col-sm-12 mt-3 mt-md-0">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="same-address">
+                                            <label class="custom-control-label pt-2 pl-2 font-size-12 text-white signup-checkbox" for="same-address">I consent to receive information about services and special offers by email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <hr class="border-white opacity-50" />
+                    </div>
+                </div>
+                <div class="footer-page-block pt-lg-4 mt-3 pb-lg-4 mb-3">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-2 col-xl-2 mb-3 mb-md-0 footer-content pr-lg-0 pr-xl-3">
+                            <div class="bottom-logo">
+                                <img src="./images/logo.png" class="img-fluid">
+                            </div>
+                            <div class="api-block mt-4 pt-4">
+                                <button class="btn api-btn">Peexy Social API</button>
+                            </div>
+                            <div class="footer-list mt-4">
+                                <ul>
+                                    <li><a href="#">Access over 80 million</a></li>
+                                    <li><a href="#">Instagram influencers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 pl-lg-5 mb-3 mb-md-0 footer-content">
+                            <div class="pl-xl-4">
+                                <div class="footersub-head mb-4">
+                                    <h6 class="text-white"><b>Peexy</b></h6>
+                                </div>
+                                <div class="footer-list">
+                                    <ul>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">For Agencies</a></li>
+                                        <li><a href="#">Link Building</a></li>
+                                        <li><a href="#">Business Stack</a></li>
+                                        <li><a href="#">New Releases and Features</a></li>
+                                        <li><a href="#">Instagram Money Calculator</a></li>
+                                        <li><a href="#">Twitter Money Calculator</a></li>
+                                        <li><a href="#">YouTube Money Calculatorv</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2 col-xl-2 pl-xl-4 mb-3 mb-md-0 footer-content pr-lg-2">
+                            <div class="footersub-head mb-4">
+                                <h6 class="text-white"><b>About Us</b></h6>
+                            </div>
+                            <div class="footer-list">
+                                <ul>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Write For Us</a></li>
+                                    <li><a href="#">Meet the Ninjas</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Scholarship</a></li>
+                                    <li><a href="#">Instagram Influencers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 pl-lg-4 pl-xl-5 mt-md-4 mt-lg-0 mb-3 mb-md-0 footer-content">
+                            <div class="pl-xl-2">
+                                <div class="footersub-head mb-4">
+                                    <h6 class="text-white"><b>Top Stories</b></h6>
+                                </div>
+                                <div class="footer-list">
+                                    <ul>
+                                        <li><a href="#">Link Building in 2019</a></li>
+                                        <li><a href="#">How to Crowdfund Startup</a></li>
+                                        <li><a href="#">Peexy vs Buzzstream</a></li>
+                                        <li><a href="#">Peexy vs Pitchbox</a></li>
+                                        <li><a href="#">Peexy vs Buzzsumo</a></li>
+                                        <li><a href="#">Peexy vs Grouphigh</a></li>
+                                        <li><a href="#">How To Promote Brand For Free</a></li>
+                                        <li><a href="#">Best SEO Link Building Toolsv</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 mt-md-4 mt-lg-0 mb-3 mb-md-0 pr-lg-0 footer-content pr-0 pr-sm-3">
+                            <div class="footersub-head mb-4">
+                                <h6 class="text-white"><b>Help</b></h6>
+                            </div>
+                            <div class="footer-list">
+                                <ul>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">FAQ & Knowledge Base</a></li>
+                                    <li><a href="#">The Ultimate Guide</a></li>
+                                </ul>
+                            </div>
+                            <div class="social-block">
+                                <div class="row">
+                                    <div class="col-auto col-sm-auto col-md-4 pr-2">
+                                        <button class="btn social-btn"> 
+                                            <i class="fab fa-instagram"></i>
+                                            <!-- <img src="./images/insta.png" class="img-fluid"> -->
+                                            <span class="mt-1 mt-xl-2">Instagram <br>
+                                            Influencers</span>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto col-sm-auto col-md-4 pr-2 pl-lg-2 pl-xl-3 pr-lg-1 pr-xl-2">
+                                        <button class="btn social-btn"> 
+                                            <i class="fab fa-twitter"></i>
+                                            <!-- <img src="./images/Twitter.png" class="img-fluid"> -->
+                                            <span class="mt-1 mt-xl-2">Twitter <br>
+                                                Influencers</span>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto col-sm-auto col-md-4 pr-2 pl-lg-0 pl-xl-3">
+                                        <button class="btn social-btn"> 
+                                            <i class="fab fa-youtube"></i>
+                                            <!-- <img src="./images/youtube.png" class="img-fluid"> -->
+                                            <span class="mt-1 mt-xl-2">Youtube <br>
+                                                Influencers</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <hr class="border-white opacity-50" />
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-sm-12 col-lg-12 col-xl-12">
+                        <div class="social-icon text-center pb-2 d-flex justify-content-center align-items-center">
+                            <a href="#" class="our-app d-inline-flex align-items-center"><i class="fas fa-mobile-alt pr-2"></i><span class="ourapps-txt">Our Apps</span></a>
+                            <a href="#"><i class="fab fa-linkedin-in socail-btn"></i></a>
+                            <a href="#"><i class="fab fa-twitter socail-btn"></i></a>
+                            <a href="#"><i class="fab fa-youtube socail-btn"></i></a>
+                        </div>
+                    </div> 
+                    <!-- <div class="col-sm-12">
+                        <a href="#" class="app-btn">
+                            <span class="app-img">
+                                <img src="./images/app-logo.png" class="img-fluid">
+                            </span>
+                            <span><i class="fas fa-mobile-alt"></i></span>
+                            <span>Our Apps</span>
+                        </a>
+                    </div> -->
+                    <div class="col-sm-12 col-lg-12 col-xl-12 text-center">
+                        <span class="text-white font-size-12">Copyright © 2014 - 2020 · All Rights Reserved - <a href="#" class="text-white white-space-nowrap">Privacy Policy</a> | <a href="#" class="text-white white-space-nowrap">Terms &amp; Conditions</a></span>
+                    </div>
+                    <!-- <div class="col-sm-12 col-lg-4 col-xl-4">
+                        <div class="social-icon text-center text-lg-right pt-2 pt-lg-0 d-flex justify-content-center justify-content-lg-end align-items-center">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer content End -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="js/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
